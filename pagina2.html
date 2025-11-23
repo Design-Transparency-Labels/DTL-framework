@@ -421,30 +421,32 @@
 
   <!-- Sezione immagini affiancate + icone laterali -->
 <div class="w-full max-w-4xl mx-auto">
-  <div class="grid grid-cols-1 lg:grid-cols-2 gap-8 md:gap-12 items-start">
+  <div class="grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-12 items-start">
 
     <!-- Colonna X + immagine (icone a sinistra) -->
     <div class="flex items-center justify-center md:justify-start gap-3">
-      <div class="text-red-500 text-4xl leading-none select-none translate-y-[-5px]">
+      <div class="text-red-500 text-2xl sm:text-4xl leading-none select-none translate-y-[-5px]">
         ❌
       </div>
       <img
         src="Target1.png"
         alt="Phone mockup"
-        class="w-full max-w-[260px] md:max-w-[300px] h-auto object-contain select-none"
+        style="width:300px"
+        class="sm:w-[260px] md:w-[300px] h-auto object-contain select-none min-w-0 max-w-none shrink"
         loading="lazy"
       />
     </div>
 
     <!-- Colonna ✓ + immagine (icone a sinistra) -->
     <div class="flex items-center justify-center md:justify-start gap-3">
-      <div class="text-green-500 text-4xl leading-none select-none translate-y-[-5px]">
+      <div class="text-green-500 text-2xl sm:text-4xl leading-none select-none translate-y-[-5px]">
         ✅
       </div>
       <img
         src="Target2.png"
         alt="Phone mockup"
-        class="w-full max-w-[260px] md:max-w-[300px] h-auto object-contain select-none"
+        style="width:300px"
+        class="sm:max-w-[260px] md:max-w-[300px] h-auto object-contain select-none min-w-0 max-w-none shrink"
         loading="lazy"
       />
     </div>
@@ -554,23 +556,22 @@
     <!-- Contenitore immagine + titolo -->
 <div class="flex flex-col items-center sm:items-start gap-0 sm:gap-4">
       <h3
-  class="text-xl font-semibold leading-tight underline decoration-yellow-400 decoration-1 underline-offset-4 mb-0 mt-0 px-1 mb-2"
+  class="text-xl font-semibold leading-tight underline decoration-yellow-400 decoration-1 underline-offset-4 mb-2 sm:-mt-2 px-1"
 >
   Example – YouTube
 </h3>
-
-
       <img
         src="Percezione_impatto2.png"
         alt="Phone mockup"
-        class="h-auto max-w-[300px] object-contain select-none mt-2 sm:-mt-2 md:mt-0"
+        style="width: 300px;"
+        class="sm:max-w-[260px] md:max-w-[300px] h-auto object-contain select-none min-w-0 sm:-mt-1"        
         loading="lazy"
       />
     </div>
 
     <!-- Testo allineato all'inizio dell'immagine -->
     <div class="flex-1 sm:mt-[2rem] text-gray-900">
-      <p class="text-base mt-1 mb-3 translate-y-[5px]">
+      <p class="text-base mb-3 translate-y-[5px]">
       The <u>practical strategies</u> used here are <strong>2</strong>:</p>
       <ol class="relative space-y-8 pl-3">
   
@@ -593,7 +594,6 @@
 </ol>
 
     </div>
-
   </div>
 
   <!-- SECONDO BLOCCO -->
@@ -601,18 +601,19 @@
 
   <!-- Immagine + titolo -->
   <div class="flex flex-col items-center sm:items-start">
-    <h3 class="text-xl font-semibold leading-tight mb-2 px-1 sm:mb-4 underline decoration-yellow-400 decoration-1 underline-offset-4">Example – Amazon</h3>
+    <h3 class="text-xl font-semibold leading-tight mb-4 px-1 sm:mb-8 underline decoration-yellow-400 decoration-1 underline-offset-4">Example – Amazon</h3>
     <img
       src="Percezione_impatto1.png"
       alt="Phone mockup"
-      class="h-auto max-w-[300px] object-contain select-none mt-2 md:mt-0"
+      style="width: 300px;"
+      class="sm:max-w-[260px] md:max-w-[300px] h-auto object-contain select-none min-w-0"      
       loading="lazy"
     />
   </div>
 
   <!-- Testo allineato all'inizio dell'immagine -->
     <div class="flex-1 sm:mt-[2rem] text-gray-900">
-      <p class="text-base mt-1 mb-3 translate-y-[5px]">
+      <p class="text-base mb-3">
       The <u>practical strategies</u> used here are <strong>2</strong>:</p>
       <ol class="relative space-y-8 pl-3">
 
@@ -855,22 +856,24 @@ The <strong>negative</strong> example does not follow any of the recommended <u>
     <img
       src="Gancio2.png"
       alt="Phone mockup"
-      class="h-auto max-w-[300px] object-contain select-none mt-2"
+      style="width: 300px;"
+      class="sm:max-w-[260px] md:max-w-[300px] h-auto object-contain select-none min-w-0"      
       loading="lazy"
     />
   </div>
   <div class="flex flex-col items-center md:items-start md:ml-6">
-    <h3 class="text-xl font-semibold leading-tight mb-2 px-1 sm:mb-4 underline decoration-yellow-400 decoration-1 underline-offset-4">Example – TikTok</h3>
+    <h3 class="text-xl font-semibold leading-tight mb-4 px-1 sm:mb-4 underline decoration-yellow-400 decoration-1 underline-offset-4">Example – TikTok</h3>
     <img
       src="Gancio3.png"
       alt="Phone mockup"
-      class="h-auto max-w-[300px] object-contain select-none mt-4"
+      style="width: 300px;"
+      class="sm:max-w-[260px] md:max-w-[300px] h-auto object-contain select-none min-w-0 mt-2"
       loading="lazy"
     />
   </div>
 
 </div>
-<div class="flex flex-col gap-4 md:flex-row md:items-startn mt-8">
+<div class="flex flex-col gap-4 md:flex-row md:items-startn mt-4">
 
     <!-- Contenitore immagine + titolo -->
     <div class="flex flex-col items-center md:items-start">
@@ -881,7 +884,8 @@ The <strong>negative</strong> example does not follow any of the recommended <u>
       <img
         src="Gancio1.png"
         alt="Phone mockup"
-        class="h-auto max-w-[300px] object-contain select-none mt-2 sm:mt-0"
+        style="width: 300px;"
+        class="sm:max-w-[260px] md:max-w-[300px] h-auto object-contain select-none min-w-0"
         loading="lazy"
       />
     </div>
@@ -1014,7 +1018,8 @@ The <strong>negative</strong> example does not follow any of the recommended <u>
     <img
       src="Form2.png"
       alt="Phone mockup"
-      class="h-auto max-w-[300px] object-contain select-none mt-2"
+      style="width: 300px;"
+      class="sm:max-w-[260px] md:max-w-[300px] h-auto object-contain select-none min-w-0"
       loading="lazy"
     />
   </div>
@@ -1023,7 +1028,8 @@ The <strong>negative</strong> example does not follow any of the recommended <u>
     <img
       src="Form3.png"
       alt="Phone mockup"
-      class="h-auto max-w-[300px] object-contain select-none mt-4"
+      style="width: 300px;"
+      class="sm:max-w-[260px] md:max-w-[300px] h-auto object-contain select-none min-w-0 mt-2"
       loading="lazy"
     />
   </div>
@@ -1040,13 +1046,14 @@ The <strong>negative</strong> example does not follow any of the recommended <u>
       <img
         src="Pos1.png"
         alt="Phone mockup"
-        class="h-auto max-w-[300px] object-contain select-none mt-2 sm:mt-0"
+        style="width: 300px;"
+        class="sm:max-w-[260px] md:max-w-[300px] h-auto object-contain select-none min-w-0"
         loading="lazy"
       />
     </div>
 
     <!-- Testo allineato all'inizio dell'immagine -->
-    <div class="flex-1 sm:mt-[2rem] text-gray-900">
+    <div class="flex-1 sm:mt-[2.5rem] text-gray-900">
       <p class="text-base mb-3"><u>The practical strategies</u> adopted are shared across all the examples shown:</p>
 
 <ol class="relative space-y-3 pl-3">
@@ -1299,31 +1306,39 @@ The <strong>negative</strong> example does not follow any of the recommended <u>
   </h3>
 
   <!-- Sezione immagini affiancate + icone laterali -->
-  <div class="flex flex-col lg:flex-row items-center justify-start gap-3">
+<div class="w-full max-w-4xl mx-auto">
+  <div class="grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-12 items-start">
 
     <!-- Colonna X + immagine (icone a sinistra) -->
-     <div class="flex items-center justify-center md:justify-start gap-3">
-      <div class="text-green-500 text-4xl leading-none select-none lg:ml-3 translate-y-[-5px]">❌</div>
+    <div class="flex items-center justify-center md:justify-start gap-3">
+      <div class="text-red-500 text-2xl sm:text-4xl leading-none select-none translate-y-[-5px]">
+        ❌
+      </div>
       <img
         src="Grafica1.png"
         alt="Phone mockup"
-        class="w-full max-w-[260px] md:max-w-[300px] h-auto object-contain select-none"
+        style="width:300px"
+        class="sm:w-[260px] md:w-[300px] h-auto object-contain select-none min-w-0 max-w-none shrink"
         loading="lazy"
       />
     </div>
 
     <!-- Colonna ✓ + immagine (icone a sinistra) -->
-     <div class="flex items-center justify-center md:justify-start gap-3">
-      <div class="text-green-500 text-4xl leading-none select-none lg:ml-3 translate-y-[-5px]">✅</div>
+    <div class="flex items-center justify-center md:justify-start gap-3">
+      <div class="text-green-500 text-2xl sm:text-4xl leading-none select-none translate-y-[-5px]">
+        ✅
+      </div>
       <img
         src="Grafica2.png"
         alt="Phone mockup"
-        class="w-full max-w-[260px] md:max-w-[300px] h-auto object-contain select-none"
+        style="width:300px"
+        class="sm:max-w-[260px] md:max-w-[300px] h-auto object-contain select-none min-w-0 max-w-none shrink"
         loading="lazy"
       />
     </div>
 
   </div>
+</div>
 
   <!-- Testo sotto le immagini -->
   <div class="mt-6 text-gray-900">
@@ -1347,7 +1362,7 @@ The <strong>negative</strong> example does not follow any of the recommended <u>
     <span class="absolute -left-3 top-1 h-5 w-5 rounded-full bg-yellow-400 border-4 border-white shadow"></span>
     <div class="ml-5">
       <p class="text-base translate-y-[2px]">
-        strategies <strong>3.3.1</strong> and <strong>3.3.4</strong>, because the label uses a robot icon — <i>a symbol that can be associated with communication about patterns</i> — together with an exclamation mark that <strong>captures</strong> attention without conveying a sense of danger.
+        strategies <strong>3.3.3</strong> and <strong>3.3.4</strong>, because the label uses a robot icon — <i>a symbol that can be associated with communication about patterns</i> — together with an exclamation mark that <strong>captures</strong> attention without conveying a sense of danger.
       </p>
     </div>
   </li>
@@ -1429,27 +1444,28 @@ The <strong>negative</strong> example does not follow any of the recommended <u>
 </ol>
 <!-- Box grigia a tutta larghezza della colonna testo -->
 <div class="w-full rounded-xl mt-8 mb-2 bg-gray-50 p-4 sm:p-6">
-  <div class="flex flex-col gap-4 md:flex-row md:items-start">
+  <div class="flex flex-col gap-4 sm:flex-row sm:items-start">
 
     <!-- Contenitore immagine + titolo -->
-    <div class="flex flex-col items-center md:items-start">
-      <h3 class="text-xl font-semibold leading-tight mb-2 px-1 sm:mb-4 underline decoration-yellow-400 decoration-1 underline-offset-4">
-        Example – TikTok
-      </h3>
-
+<div class="flex flex-col items-center sm:items-start gap-0 sm:gap-4">
+      <h3
+  class="text-xl font-semibold leading-tight underline decoration-yellow-400 decoration-1 underline-offset-4 mb-2 sm:-mt-2 px-1"
+>
+  Example – YouTube
+</h3>
       <img
         src="Form1.png"
         alt="Phone mockup"
-        class="h-auto max-w-[300px] object-contain select-none mt-2 sm:mt-0"
+        style="width: 300px;"
+        class="sm:max-w-[260px] md:max-w-[300px] h-auto object-contain select-none min-w-0"        
         loading="lazy"
       />
     </div>
 
     <!-- Testo allineato all'inizio dell'immagine -->
     <div class="flex-1 sm:mt-[2rem] text-gray-900">
-      <p class="text-base -mt-1 mb-3 translate-y-[5px]">
-      The <u>practical strategies</u> used are <strong>2</strong>:</p>
-      
+      <p class="text-base mb-3 translate-y-[5px]">
+      The <u>practical strategies</u> used here are <strong>2</strong>:</p>
       <ol class="relative space-y-3 pl-3">
 
   <!-- Punto 1 -->
@@ -1477,25 +1493,30 @@ The <strong>negative</strong> example does not follow any of the recommended <u>
 
   </div>
   <!-- SECONDO BLOCCO -->
-<div class="flex flex-col gap-4 md:flex-row md:items-start mt-8">
+<!-- Box grigia a tutta larghezza della colonna testo -->
+<div class="w-full rounded-xl mt-8 mb-2 bg-gray-50">
+  <div class="flex flex-col gap-4 sm:flex-row sm:items-start">
 
-  <!-- Immagine + titolo -->
-  <div class="flex flex-col items-center md:items-start">
-    <h3 class="text-xl font-semibold leading-tight mb-2 px-1 sm:mb-4 underline decoration-yellow-400 decoration-1 underline-offset-4">Example – Amazon</h3>
-    <img
-      src="Pos2.png"
-      alt="Phone mockup"
-      class="h-auto max-w-[300px] object-contain select-none mt-2"
-      loading="lazy"
-    />
-  </div>
+    <!-- Contenitore immagine + titolo -->
+<div class="flex flex-col items-center sm:items-start gap-0 sm:gap-4">
+      <h3
+  class="text-xl font-semibold leading-tight underline decoration-yellow-400 decoration-1 underline-offset-4 mb-2 sm:-mt-2 px-1"
+>
+  Example – YouTube
+</h3>
+      <img
+        src="Pos2.png"
+        alt="Phone mockup"
+        style="width: 300px;"
+        class="sm:max-w-[260px] md:max-w-[300px] h-auto object-contain select-none min-w-0"        
+        loading="lazy"
+      />
+    </div>
 
-  <!-- Testo a lato dell’immagine -->
-  <!-- Testo allineato all'inizio dell'immagine -->
-    <div class="flex-1 md:mt-[2rem] text-gray-900">
-      <p class="text-base mt-1 mb-3 translate-y-[5px]">
-      The <u>practical strategies</u> used are <strong>2</strong>:</p>
-      
+    <!-- Testo allineato all'inizio dell'immagine -->
+    <div class="flex-1 sm:mt-[2rem] text-gray-900">
+      <p class="text-base mb-3 translate-y-[5px]">
+      The <u>practical strategies</u> used here are <strong>2</strong>:</p>
       <ol class="relative space-y-3 pl-3">
 
   <!-- Punto 1 -->
@@ -1522,25 +1543,30 @@ The <strong>negative</strong> example does not follow any of the recommended <u>
     </div>
 </div>
 <!-- TERZO BLOCCO -->
-<div class="flex flex-col gap-4 md:flex-row md:items-start mt-8">
+<!-- Box grigia a tutta larghezza della colonna testo -->
+<div class="w-full rounded-xl mt-8 mb-2 bg-gray-50">
+  <div class="flex flex-col gap-4 sm:flex-row sm:items-start">
 
-  <!-- Immagine + titolo -->
-  <div class="flex flex-col items-center md:items-start">
-    <h3 class="text-xl font-semibold leading-tight mb-2 px-1 sm:mb-4 underline decoration-yellow-400 decoration-1 underline-offset-4">Example – YouTube</h3>
-    <img
-      src="Pos3.png"
-      alt="Phone mockup"
-      class="h-auto max-w-[300px] object-contain select-none mt-2"
-      loading="lazy"
-    />
-  </div>
+    <!-- Contenitore immagine + titolo -->
+<div class="flex flex-col items-center sm:items-start gap-0 sm:gap-4">
+      <h3
+  class="text-xl font-semibold leading-tight underline decoration-yellow-400 decoration-1 underline-offset-4 mb-2 sm:-mt-2 px-1"
+>
+  Example – YouTube
+</h3>
+      <img
+        src="Pos3.png"
+        alt="Phone mockup"
+        style="width: 300px;"
+        class="sm:max-w-[260px] md:max-w-[300px] h-auto object-contain select-none min-w-0"        
+        loading="lazy"
+      />
+    </div>
 
-  <!-- Testo a lato dell’immagine -->
-  <!-- Testo allineato all'inizio dell'immagine -->
-    <div class="flex-1 md:mt-[2rem] text-gray-900">
-      <p class="text-base mt-1 mb-3 translate-y-[5px]">
-      The <u>practical strategy</u> used is <strong>1</strong>:</p>
-      
+    <!-- Testo allineato all'inizio dell'immagine -->
+    <div class="flex-1 sm:mt-[2rem] text-gray-900">
+      <p class="text-base mb-3 translate-y-[5px]">
+      The <u>practical strategy</u> used here is <strong>1</strong>:</p>
       <ol class="relative space-y-3 pl-3">
 
   <!-- Punto 1 -->
@@ -1555,6 +1581,8 @@ The <strong>negative</strong> example does not follow any of the recommended <u>
 
 </ol>
     </div>
+    </div>
+</div>
 
 
 </div>
@@ -1618,17 +1646,19 @@ The <strong>negative</strong> example does not follow any of the recommended <u>
       <img
         src="Ada1.png"
         alt="Phone mockup"
-        class="h-auto max-w-[300px] object-contain select-none mt-2 sm:mt-0"
+        style="width: 300px;"
+        class="sm:max-w-[260px] md:max-w-[300px] h-auto object-contain select-none min-w-0"
         loading="lazy"
       />
     </div>
 
     <!-- Seconda immagine -->
-    <div class="flex flex-col items-center md:items-start md:ml-6">
+    <div class="flex flex-col items-center md:items-start md:ml-6 md:mt-10">
       <img
         src="Ada2.png"
         alt="Phone mockup"
-        class="h-auto max-w-[300px] object-contain select-none mt-2 md:mt-10"
+        style="width: 300px;"
+        class="sm:max-w-[260px] md:max-w-[300px] h-auto object-contain select-none min-w-0"
         loading="lazy"
       />
     </div>
@@ -1640,12 +1670,13 @@ The <strong>negative</strong> example does not follow any of the recommended <u>
     <img
       src="Ada3.png"
       alt="Phone mockup"
-      class="h-auto max-w-[300px] object-contain select-none"
+      style="width: 300px;"
+      class="sm:max-w-[260px] md:max-w-[300px] h-auto object-contain select-none min-w-0"
       loading="lazy"
     />
 
     <!-- Testo allineato all'inizio dell'immagine -->
-    <div class="flex-1 text-gray-900 mt-4 md:ml-10">
+    <div class="flex-1 text-gray-900 mt-4 sm:mt-4 md:mt-1 md:ml-10">
       <p class="text-base mb-3">
         The <u>practical strategy</u> used is <strong>1</strong>:
       </p>
@@ -1729,16 +1760,18 @@ The <strong>negative</strong> example does not follow any of the recommended <u>
     <img
       src="Int1.png"
       alt="Phone mockup"
-      class="h-auto max-w-[300px] object-contain select-none mt-2"
+      style="width: 300px;"
+      class="sm:max-w-[260px] md:max-w-[300px] h-auto object-contain select-none min-w-0"
       loading="lazy"
     />
   </div>
   <div class="flex flex-col items-center md:items-start md:ml-6">
-    <h3 class="text-xl font-semibold leading-tight mb-2 px-1 sm:mb-4 underline decoration-yellow-400 decoration-1 underline-offset-4 mt-2 md:mt-0">Example – TikTok</h3>
+    <h3 class="text-xl font-semibold leading-tight mb-3 px-1 sm:mb-4 underline decoration-yellow-400 decoration-1 underline-offset-4 mt-2">Example – TikTok</h3>
     <img
       src="Int2.png"
       alt="Phone mockup"
-      class="h-auto max-w-[300px] object-contain select-none mt-4"
+      style="width: 300px;"
+      class="sm:max-w-[260px] md:max-w-[300px] h-auto object-contain select-none min-w-0"
       loading="lazy"
     />
   </div>
